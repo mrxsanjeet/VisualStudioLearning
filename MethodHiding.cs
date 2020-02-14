@@ -19,29 +19,35 @@ namespace ClassBasics
 
     public class FullTimeEmployee : Employee
     {
-        public float yearlySalary;
+        //public float yearlySalary;
     }
 
     public class PartTimeEmployee : Employee
     {
-        public float HourlyRate;
+        //public float HourlyRate;
+        //new keyword is used to hide the base metheod because have same name method in base class
+        public new void PrintFullName()
+        {
+            //base.PrintFullName();
+            Console.WriteLine(FirstName + " " + LastName + "- Contractor");
+
+        }
     }
-    class InheritanceBasics
+    class MethodHiding
     {
         public static void Main()
         {
             FullTimeEmployee FTE = new FullTimeEmployee();
             FTE.FirstName = "Sanjeet";
             FTE.LastName = "Kumar";
-            FTE.yearlySalary = 50000;
             FTE.PrintFullName();
 
+            //Employee PTE = new PartTimeEmployee();
             PartTimeEmployee PTE = new PartTimeEmployee();
             PTE.FirstName = "Sanjeet";
             PTE.LastName = "Kumar singh";
-            PTE.HourlyRate = 60000;
             PTE.PrintFullName();
-
+            //((Employee) PTE).PrintFullName();//typecasting the object calling
         }
     }
 }

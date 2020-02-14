@@ -4,8 +4,8 @@ namespace ClassBasics
 {
     class Customer
     {
-        string _firstName;
-        string _secondName;
+        public string _firstName;
+        public string _secondName;
 
         public Customer() : this("No Firstname is provided","No Secondname is provided")
             {
@@ -20,7 +20,7 @@ namespace ClassBasics
 
         public void PrintFullName()
         {
-            Console.WriteLine("Full name = {0}", this._firstName + " " + this._secondName);
+            Console.WriteLine("Full name = {0}", _firstName + " " + _secondName );
         }
 
         ~Customer()

@@ -6,8 +6,38 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AbstractBasics.cs" />
+    <Compile Remove="AttributeExample.cs" />
+    <Compile Remove="Bubble_Sort.cs" />
+    <Compile Remove="Customer.cs" />
+    <Compile Remove="CustomInheritance.cs" />
+    <Compile Remove="DelegatesBasic2.cs" />
+    <Compile Remove="DelegatesBasics.cs" />
+    <Compile Remove="DelegatesBasics1.cs" />
+    <Compile Remove="EarlyBindingExample.cs" />
+    <Compile Remove="EnumExample2.cs" />
+    <Compile Remove="Enums.cs" />
+    <Compile Remove="EnumsExample.cs" />
+    <Compile Remove="ExampleforSturctClass.cs" />
+    <Compile Remove="ExceptionHandling.cs" />
+    <Compile Remove="ExceptionHandling1.cs" />
+    <Compile Remove="ExceptionHandlingAbuse.cs" />
+    <Compile Remove="ExceptionHandlingAbuse1.cs" />
+    <Compile Remove="ExplicitInterface.cs" />
+    <Compile Remove="InheritanceBasics.cs" />
+    <Compile Remove="InnerExceptionExample.cs" />
+    <Compile Remove="IntroInterface.cs" />
+    <Compile Remove="MethodHiding.cs" />
+    <Compile Remove="MethodOverloading.cs" />
+    <Compile Remove="MORvsMH.cs" />
+    <Compile Remove="Polymorphism.cs" />
     <Compile Remove="Program.cs" />
+    <Compile Remove="Properties.cs" />
+    <Compile Remove="ReadATextFile.cs" />
+    <Compile Remove="ReflectionExample.cs" />
     <Compile Remove="Staticandinstance.cs" />
+    <Compile Remove="Structs.cs" />
+    <Compile Remove="WhyProperties.cs" />
   </ItemGroup>
 
 </Project>
